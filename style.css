@@ -15,8 +15,8 @@
   .container {
     max-width: 1440px;
     margin: 0 auto;
-    border: 1px solid red;
-    background: #eee;
+
+    padding: 20px;
   }
   .nav-list {
     display: flex;
@@ -24,3 +24,17 @@
     align-items: center;
     list-style: none;
   }
+  .nav-item{   border: 1px solid red;
+    padding: 5px 20px;}
+.avatar{
+    float:left; /* Выравнивание по левому краю */
+    margin: 7px 7px 7px 0; /* Отступы вокруг картинки */
+   }
+   .skills{ margin-left: 250px;}
+   .main{background-color: aquamarine;}
+   .header{background-color: aqua;}
+   .footer{background-color: aqua;
+    display: flex;
+    justify-content: space-between;}
+   .logo{
+height: 50px;}
